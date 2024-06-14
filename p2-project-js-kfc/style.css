@@ -1,0 +1,144 @@
+* {
+    position: static;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.index_body {
+    background-image: url(./img/Naamloos.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.index_text {
+    display: flex;
+    color: red;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.index_buttons {
+    display: flex;
+    height: 50vh;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: rgb(17, 17, 17);
+    justify-content: space-around;
+    position: absolute;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav li {
+    font-size: 1.5rem;
+    padding: 0 0 0 0;
+}
+
+nav a {
+    color: rgb(5, 1, 1);
+    text-decoration: none;
+}
+
+nav img {
+    width: 5vw;
+    cursor: pointer;
+}
+
+.logo_image {
+    display: flex;
+    justify-self: flex-start;
+    height: 10vh;
+    margin-right: 1100px;
+}
+
+.index_button {
+
+    .index_button {
+        background-color: rgb(185, 255, 167);
+        padding: 5px;
+        border-radius: 3px;
+        border-color: black;
+        border: 2px black;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.efe_body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.efe_kaart {
+    width: 345px;
+    height: 345px;
+    border: 2px solid black;
+    background-color: rgba(17, 17, 17, 0.53);
+}
+
+.pkaartE {
+    color: aliceblue;
+    font-family: serif;
+}
+
+
+--intro joen .joen_body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kaart1 {
+    width: 300px;
+    height: 300px;
+    background-color: #100b10;
+    margin: 13% 0 0 14%;
+    color: white;
+    font-family: serif;
+}
+
+.EG {
+    background-color: #100b10;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+}
+.H1G {color: green;
+display: flex;
+justify-content: center;
+position: static;}
+.T1G {display: flex;
+justify-content: center;}
+.GIA {display: flex;
+justify-content: space-between;}
+.Gimg {
+    display: flex;
+    justify-content: center;
+}
