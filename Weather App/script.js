@@ -31,3 +31,10 @@ async function checkWeather(city) {
 SearchBtn.addEventListener("click", () => {
   checkWeather(SearchBox.value);
 });
+
+SearchBox.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    checkWeather(SearchBox.value);
+  }
+});
+
